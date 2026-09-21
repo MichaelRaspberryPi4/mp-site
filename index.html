@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Michael Petrenko</title>
+<meta name="description" content="Michael Petrenko — Create. Perform. Build. I turn ideas into things people can see, hear, experience, and remember.">
+<meta name="author" content="Michael Petrenko">
+
+<!-- Social preview (optional: swap the image once you add one to /assets) -->
+<meta property="og:title" content="Michael Petrenko — CREATE. PERFORM. BUILD.">
+<meta property="og:description" content="I turn ideas into things people can see, hear, experience, and remember.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%2308090B'/%3E%3Cpath d='M148 40 H40 V160 H160 V118' fill='none' stroke='%23F4F5F7' stroke-width='14'/%3E%3Cpath d='M118 40 H148 M160 96 V118' fill='none' stroke='%232B6BFF' stroke-width='14'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400..800&display=swap">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- Marks the document as JS-enabled so scroll animations only arm when JS can also finish them. -->
+<script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__mark" href="#home" aria-label="Michael Petrenko — back to top">
+      <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+        <path d="M148 16 H16 V184 H184 V110" fill="none" stroke="currentColor" stroke-width="14"/>
+        <path d="M118 16 H148 M184 82 V110" fill="none" stroke="var(--accent)" stroke-width="14"/>
+      </svg>
+      <span class="nav__markText">MP</span>
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link is-active">Home</a></li>
+        <li><a href="#bring" class="nav__link">What I Bring</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#brand" class="nav__link">Brand</a></li>
+        <li><a href="#pitch" class="nav__link">Pitch</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMobile" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav__mobile" id="navMobile" hidden>
+    <a href="#home">Home</a>
+    <a href="#bring">What I Bring</a>
+    <a href="#about">About</a>
+    <a href="#brand">Brand</a>
+    <a href="#pitch">Pitch</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+     SECTION 1 — HERO
+     ============================================================ -->
+<section class="hero" id="home">
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+
+    <div class="hero__text">
+      <p class="eyebrow reveal">Personal Brand · Grade 10 Business</p>
+
+      <h1 class="hero__name reveal" data-delay="1">Michael<br>Petrenko</h1>
+
+      <p class="hero__tagline reveal" data-delay="2">
+        <span>Create.</span><span>Perform.</span><span>Build.</span>
+      </p>
+
+      <p class="hero__lead reveal" data-delay="3">
+        I turn ideas into things people can see, hear, experience, and remember.
+      </p>
+
+      <p class="hero__intro reveal" data-delay="4">
+        I&rsquo;m Michael&mdash;a student who enjoys combining creativity, technology, and
+        communication. Whether I&rsquo;m designing something in 3D, editing a video, performing
+        magic, playing music, or presenting an idea, I like taking something that starts as a
+        thought and turning it into something real.
+      </p>
+
+      <div class="hero__actions reveal" data-delay="5">
+        <a class="btn btn--primary" href="#bring">
+          See What I Bring
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#pitch">My Elevator Pitch</a>
+      </div>
+    </div>
+
+    <!-- ========================================================
+         >>> REPLACE #1 — YOUR PROFILE PHOTO <<<
+         1. Save your photo as:  assets/michael.jpg
+         2. Delete the <div class="photo__placeholder"> block below.
+         3. Delete the comment markers around the <img> tag below and it will appear.
+         Best results: a vertical (portrait) photo, roughly 1000 x 1250 pixels.
+         ======================================================== -->
+    <div class="hero__photo reveal" data-delay="3" data-parallax="0.06">
+      <figure class="photo">
+
+        <!-- <img src="assets/michael.jpg" alt="Michael Petrenko" width="1000" height="1250"> -->
+
+        <div class="photo__placeholder">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="photo__icon">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="9.5" r="1.8"/>
+            <path d="M21 15.5l-5-5L5.5 21"/>
+          </svg>
+          <p class="photo__label">Photo placeholder</p>
+          <p class="photo__hint">Replace with <code>assets/michael.jpg</code><br>Portrait orientation, about 1000&thinsp;&times;&thinsp;1250&nbsp;px</p>
+        </div>
+
+        <span class="photo__corner photo__corner--tl" aria-hidden="true"></span>
+        <span class="photo__corner photo__corner--br" aria-hidden="true"></span>
+      </figure>
+      <p class="photo__caption">Vaughan, Ontario &middot; Always learning</p>
+    </div>
+
+  </div>
+
+  <a class="hero__scroll" href="#bring" aria-label="Scroll to What I Bring">
+    <span class="hero__scrollLine" aria-hidden="true"></span>
+    <span class="hero__scrollText">Scroll</span>
+  </a>
+</section>
+
+
+<!-- ============================================================
+     SECTION 2 — WHAT I BRING
+     ============================================================ -->
+<section class="bring" id="bring">
+  <div class="wrap">
+    <div class="sectionHead">
+      <p class="eyebrow reveal">What I Bring</p>
+      <h2 class="sectionTitle reveal" data-delay="1">Three things I keep getting better at.</h2>
+      <p class="sectionLead reveal" data-delay="2">
+        They work as a sequence. An idea becomes real, and then it reaches people.
+      </p>
+    </div>
+
+    <div class="pillars">
+
+      <article class="pillar reveal" data-delay="1">
+        <p class="pillar__num" aria-hidden="true">01</p>
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12z"/>
+          </svg>
+        </div>
+        <h3 class="pillar__title">Create</h3>
+        <p class="pillar__sub">Ideas &rarr; Experiences</p>
+        <p class="pillar__body">
+          I enjoy creative work including video editing, music, magic, and visual design. I like
+          finding ways to make an idea interesting instead of simply copying what already exists.
+        </p>
+        <ul class="pillar__tags">
+          <li>Video editing</li><li>Music</li><li>Magic</li><li>Visual design</li>
+        </ul>
+      </article>
+
+      <article class="pillar reveal" data-delay="2">
+        <p class="pillar__num" aria-hidden="true">02</p>
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2.5l8.5 4.75v9.5L12 21.5l-8.5-4.75v-9.5z"/>
+            <path d="M3.5 7.25L12 12l8.5-4.75M12 12v9.5"/>
+          </svg>
+        </div>
+        <h3 class="pillar__title">Build</h3>
+        <p class="pillar__sub">Ideas &rarr; Reality</p>
+        <p class="pillar__body">
+          I work with tools such as 3D modelling and 3D printing and enjoy technology like Arduino
+          and Raspberry Pi. I like understanding how things work, solving problems, and actually
+          building what I imagine.
+        </p>
+        <ul class="pillar__tags">
+          <li>3D modelling</li><li>3D printing</li><li>Arduino</li><li>Raspberry Pi</li>
+        </ul>
+      </article>
+
+      <article class="pillar reveal" data-delay="3">
+        <p class="pillar__num" aria-hidden="true">03</p>
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="9" y="2.5" width="6" height="11" rx="3"/>
+            <path d="M5 11a7 7 0 0 0 14 0M12 18v3.5M8.5 21.5h7"/>
+          </svg>
+        </div>
+        <h3 class="pillar__title">Perform</h3>
+        <p class="pillar__sub">Ideas &rarr; People</p>
+        <p class="pillar__body">
+          A great idea means very little if you can&rsquo;t communicate it. Through magic,
+          presentations, public speaking, music, and performance, I&rsquo;ve learned how important
+          confidence, storytelling, and audience attention are.
+        </p>
+        <ul class="pillar__tags">
+          <li>Public speaking</li><li>Presenting</li><li>Card magic</li><li>Storytelling</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3 — WHAT MAKES ME DIFFERENT
+     ============================================================ -->
+<section class="diff" id="about">
+  <div class="diff__glow" aria-hidden="true"></div>
+  <div class="wrap">
+
+    <div class="diff__top">
+      <div class="diff__lead">
+        <h2 class="diff__title reveal">What Makes<br>Me Different?</h2>
+
+        <blockquote class="valueProp reveal" data-delay="2">
+          <p>
+            I combine <em>creativity</em>, <em>technical ability</em>, and <em>communication</em>
+            to turn ideas into real, engaging results.
+          </p>
+          <cite>My value proposition</cite>
+        </blockquote>
+      </div>
+
+      <div class="diff__copy">
+        <p class="reveal" data-delay="1">
+          My biggest advantage is the combination of creative and technical skills.
+        </p>
+        <p class="reveal" data-delay="2">
+          A lot of people enjoy coming up with ideas. Others enjoy building things. Others are good
+          at presenting them. <strong>I&rsquo;m working on becoming good at all three.</strong>
+        </p>
+        <p class="reveal" data-delay="3">
+          That means I can come up with an idea, figure out how to make it real, and communicate it
+          in a way that people actually care about.
+        </p>
+        <p class="reveal" data-delay="4">
+          I&rsquo;m also constantly learning. I don&rsquo;t expect to already know
+          everything&mdash;I want to become the person who can figure it out.
+        </p>
+      </div>
+    </div>
+
+    <!-- IDEA -> BUILD -> COMMUNICATE process rail -->
+    <div class="process" id="process" aria-label="My process: idea, build, communicate">
+      <div class="process__rail" aria-hidden="true"><span class="process__fill"></span></div>
+      <ol class="process__steps">
+        <li class="process__step">
+          <span class="process__dot" aria-hidden="true"></span>
+          <span class="process__word">Idea</span>
+          <span class="process__note">Notice it. Sketch it.</span>
+        </li>
+        <li class="process__step">
+          <span class="process__dot" aria-hidden="true"></span>
+          <span class="process__word">Build</span>
+          <span class="process__note">Model it. Print it. Wire it.</span>
+        </li>
+        <li class="process__step">
+          <span class="process__dot" aria-hidden="true"></span>
+          <span class="process__word">Communicate</span>
+          <span class="process__note">Perform it. Present it. Sell it.</span>
+        </li>
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4 + 5 — THE BRAND (wordmark) AND THE LOGO
+     This section inverts to off-white on purpose: brand assets
+     have to survive on a light background too.
+     ============================================================ -->
+<section class="brand" id="brand">
+  <div class="wrap">
+
+    <div class="sectionHead sectionHead--light">
+      <p class="eyebrow reveal">The Brand</p>
+      <h2 class="sectionTitle reveal" data-delay="1">Name design and personal logo.</h2>
+    </div>
+
+    <!-- ---------- Wordmark ---------- -->
+    <div class="asset asset--wordmark">
+      <div class="asset__stage reveal">
+        <div class="wordmark" role="img" aria-label="Michael">
+          <span>M</span><span class="wordmark__bar" aria-hidden="true"></span><span>C</span><span>H</span><span>A</span><span>E</span><span>L</span>
+        </div>
+        <p class="wordmark__sub">Create <span aria-hidden="true">&bull;</span> Perform <span aria-hidden="true">&bull;</span> Build</p>
+      </div>
+
+      <div class="asset__notes reveal" data-delay="1">
+        <p class="assetLabel">Name design</p>
+        <p>
+          My name design uses bold, geometric capital letters to represent confidence, structure,
+          and a modern approach to creativity.
+        </p>
+        <p>
+          The electric-blue accent connects the design to technology and makes the name recognizable
+          without making it unnecessarily complicated.
+        </p>
+        <p>
+          I chose a clean design because I want my personal brand to communicate that I focus on
+          ideas and execution rather than unnecessary decoration.
+        </p>
+      </div>
+    </div>
+
+    <!-- ---------- Logo ---------- -->
+    <div class="asset asset--logo">
+      <div class="asset__stage asset__stage--logo reveal">
+        <svg class="mp" id="mpLogo" viewBox="0 0 200 200" role="img" aria-labelledby="mpTitle mpDesc">
+          <title id="mpTitle">Michael Petrenko monogram</title>
+          <desc id="mpDesc">The letters M P inside a square whose top-right corner is deliberately left open.</desc>
+          <path class="mp__square" d="M148 16 H16 V184 H184 V110" fill="none" stroke-width="13" stroke-linecap="square"/>
+          <path class="mp__open" d="M118 16 H148" fill="none" stroke-width="13" stroke-linecap="square"/>
+          <path class="mp__open" d="M184 82 V110" fill="none" stroke-width="13" stroke-linecap="square"/>
+          <text class="mp__letters" x="100" y="104" text-anchor="middle" dominant-baseline="central">MP</text>
+        </svg>
+        <p class="asset__caption">Structure&thinsp;+&thinsp;Creativity</p>
+      </div>
+
+      <div class="asset__notes reveal" data-delay="1">
+        <p class="assetLabel">Personal logo</p>
+        <p>
+          My logo combines my initials, MP, with an incomplete square.
+        </p>
+        <p>
+          The square represents building, structure, technology, and design. One section is
+          intentionally left open. That represents creativity and the idea that I don&rsquo;t want to
+          be boxed into one skill or category.
+        </p>
+        <p class="assetMeaning">Together, the logo represents: <strong>Structure + Creativity.</strong></p>
+
+        <ul class="legend">
+          <li><span class="legend__key legend__key--ink" aria-hidden="true"></span>M + P &mdash; Michael Petrenko</li>
+          <li><span class="legend__key legend__key--square" aria-hidden="true"></span>Square &mdash; structure, building, technology</li>
+          <li><span class="legend__key legend__key--open" aria-hidden="true"></span>Open section &mdash; creativity, refusing one box</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6 — RESILIENCE
+     ============================================================ -->
+<section class="hardmode">
+  <div class="wrap">
+   <div class="hardmode__inner">
+    <div class="hardmode__icon reveal" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M7 3.5h10l-1 4H8z"/>
+        <path d="M8 7.5h8l.8 9a2.2 2.2 0 0 1-2.2 2.4H9.4A2.2 2.2 0 0 1 7.2 16.5z"/>
+        <path d="M9.5 11.5h5M9.8 14.8h4.4"/>
+      </svg>
+    </div>
+    <div class="hardmode__text">
+      <p class="eyebrow reveal">Status</p>
+      <h2 class="hardmode__title reveal" data-delay="1">Currently building on hard mode.</h2>
+      <p class="reveal" data-delay="2">
+        I apparently take &lsquo;learning through experience&rsquo; pretty seriously&mdash;I recently
+        broke my dominant arm. Bad timing, but a pretty good test of whether I actually live by the
+        whole &lsquo;keep building&rsquo; idea.
+      </p>
+      <p class="reveal" data-delay="3">
+        I&rsquo;m still creating, learning, and figuring out different ways to get things done.
+      </p>
+    </div>
+   </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7 — ELEVATOR PITCH
+     ============================================================ -->
+<section class="pitch" id="pitch">
+  <div class="wrap">
+
+    <div class="sectionHead sectionHead--center">
+      <p class="eyebrow reveal">30&ndash;45 seconds</p>
+      <h2 class="sectionTitle reveal" data-delay="1">My Elevator Pitch</h2>
+    </div>
+
+    <!-- ========================================================
+         >>> REPLACE #2 — YOUR ELEVATOR PITCH VIDEO <<<
+         1. Save your video as:  assets/pitch.mp4
+         2. (Optional) Save a still frame as:  assets/pitch-poster.jpg
+         3. Delete the <div class="video__placeholder"> block below.
+         4. Delete the comment markers around the <video> tag below.
+         Recommended: landscape 16:9, 1920 x 1080, under about 60 MB.
+         ======================================================== -->
+    <div class="video reveal" data-delay="2">
+
+      <!--
+      <video class="video__player" controls playsinline preload="metadata" poster="assets/pitch-poster.jpg">
+        <source src="assets/pitch.mp4" type="video/mp4">
+        Your browser does not support embedded video. <a href="assets/pitch.mp4">Download the video instead.</a>
+      </video>
+      -->
+
+      <div class="video__placeholder">
+        <span class="video__play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9 6.5l9 5.5-9 5.5z"/></svg>
+        </span>
+        <p class="video__label">Video placeholder</p>
+        <p class="video__hint">Replace with <code>assets/pitch.mp4</code> &middot; 16:9, about 30&ndash;45 seconds</p>
+      </div>
+
+      <span class="video__corner video__corner--tl" aria-hidden="true"></span>
+      <span class="video__corner video__corner--br" aria-hidden="true"></span>
+    </div>
+
+    <!-- Written pitch. The <mark> tags are the phrases that light up on scroll. -->
+    <div class="script" id="script">
+      <ol class="script__list">
+
+        <li class="script__line">
+          <span class="script__part">Hook</span>
+          <p>
+            Ideas are easy to have. Turning them into something real&mdash;and making people care
+            about them&mdash;is much harder.
+          </p>
+        </li>
+
+        <li class="script__line">
+          <span class="script__part">Solution</span>
+          <p>
+            I&rsquo;m Michael Petrenko, and that&rsquo;s the kind of challenge I enjoy.
+          </p>
+        </li>
+
+        <li class="script__line">
+          <span class="script__part">Value</span>
+          <p>
+            I combine creativity with technical and communication skills through things like 3D
+            design, video editing, magic, music, technology, and public speaking.
+          </p>
+        </li>
+
+        <li class="script__line">
+          <span class="script__part">Difference</span>
+          <p>
+            What makes me different is that I don&rsquo;t just want to <mark>create</mark> ideas. I
+            want to <mark>build</mark> them and <mark>communicate</mark> them.
+          </p>
+        </li>
+
+        <li class="script__line">
+          <span class="script__part">Resilience</span>
+          <p>
+            And apparently I take &lsquo;learning through experience&rsquo; pretty
+            seriously&mdash;I recently broke my dominant arm, but I&rsquo;m still creating,
+            learning, and finding ways to build anyway.
+          </p>
+        </li>
+
+        <li class="script__line">
+          <span class="script__part">Call to action</span>
+          <p>
+            So if you need someone willing to learn, create, solve problems, and turn an idea into
+            something real&mdash;<mark class="mark--strong">let&rsquo;s build something.</mark>
+          </p>
+        </li>
+
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 8 — FINAL CTA
+     ============================================================ -->
+<section class="close">
+  <div class="wrap close__inner">
+    <p class="close__audience reveal">
+      For anyone looking for a creative collaborator, a technical problem solver, or someone who
+      will figure it out.
+    </p>
+
+    <h2 class="close__title reveal" data-delay="1">Let&rsquo;s build<br>something.</h2>
+
+    <div class="close__sig reveal" data-delay="2">
+      <p class="close__name">Michael Petrenko</p>
+      <p class="close__roles">Creator <span aria-hidden="true">&bull;</span> Builder <span aria-hidden="true">&bull;</span> Performer</p>
+      <p class="close__motto">Always learning. Always creating.</p>
+    </div>
+
+    <a class="btn btn--primary btn--up reveal" data-delay="3" href="#home">
+      Back to the Beginning
+      <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <p>&copy; <span id="year">2026</span> Michael Petrenko</p>
+    <p class="foot__note">Personal branding project &middot; Business 1.2 &mdash; Marketing You</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
